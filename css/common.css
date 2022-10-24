@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+header
+{
+    background-color: #ef0b7c;
+    height: 80px;
+    background-image: url(../img/la-polla-logo.png);
+    background-repeat: no-repeat;
+    background-size: 8% 100%;
+    background-position: center;
+}
+
+nav
+{
+    padding: 3vh;
+    list-style: none;
+    text-align: center;
+    background-color: black;
+}
+
+nav > ul > li
+{
+    display: inline;
+    padding: 10px;
+    transition: 0.8s;
+}
+
+nav > ul > li > a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover
+{
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+}
+
+nav > ul > li:hover
+{
+    background-color: #ef0b7c;
+    border-radius: 10%;
+}
