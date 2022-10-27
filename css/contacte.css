@@ -1,7 +1,9 @@
 article
 {
     margin-top: 150px;
-    margin-left: 20px;    
+    margin-left: 180px;    
+    margin-right: 0px;
+    text-align: right;
 }
 
 main
@@ -13,8 +15,8 @@ main
 iframe
 {
     float: left;
-    margin-left: 500px;
-    margin-top: -230px;
+    margin-left: 400px;
+    margin-top: -250px;
     width: 800px;
     height: 400px;
 }

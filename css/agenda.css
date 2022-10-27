@@ -1,7 +1,57 @@
 table
 {
-   margin-top: 150px;
-   margin-left: 500px;
+    border-collapse: collapse;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 6px; 
+    margin-top: 100px;
+    margin-left: 250px;   
+}
+
+tr:nth-child(1)
+{
+    border-bottom: solid black 2px;
+}
+
+#linea1
+{
+    background-color: #ef0b7c;
+    padding: 10px;
+    font-size: 16px;
+    height: 60px;
+}
+
+#linea1 > th    
+{
+    padding-right: 15px;
+    width: 100px;
+}
+
+td
+{
+    width: 100px;
+    background-color: lightpink;
+}
+
+tr:nth-child(2) > td
+{
+    background-color: lightpink;
+}
+
+tr:nth-child(3) > td
+{
+    background-color: #EC4B9B;
+}
+
+tr:nth-child(4) > td
+{
+    background-color: lightpink;
+}
+
+tr:nth-child(5) > td
+{
+    background-color: #EC4B9B;
 }
 
 footer
